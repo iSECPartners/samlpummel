@@ -1,0 +1,41 @@
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="i51548a2945880b0c19e65fd2aa25696b9e736b48" InResponseTo="i19e44a971f03935091fe896e5b4d1ba00d26d9cd" IssueInstant="2007-06-13T21:06:51.000Z" Version="2.0"><saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">http://qa.cybervillains.com/</saml:Issuer><samlp:Status xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"><samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"/></samlp:Status><saml:Assertion xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="if12395b0f389741440ad845a2fc2d6e1698a0a51" IssueInstant="2007-05-13T21:06:51.000Z" Version="2.0"><saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">http://qa.cybervillains.com/</saml:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#if12395b0f389741440ad845a2fc2d6e1698a0a51">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+<ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="xsd"/>
+</ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>pClbIKchRTzd68417RFwS5sYYyA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+TkfBFlNv892fNU0oGOO+R5HABPhRrC6T91jrGSAWGjEZOt07Z78W4CgK0EK5cS/Zo4SLhxP8iYXt
+K/AxFXVviy8RFB4Sz8Xk0xP9dZsrVvFUT/zMX+5GPIiT3FTEitx9LFKGNVM2yzxZ+DUj6tJw7ceT
+zeY4gJHuJxcRh08fUVc=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIClTCCAf6gAwIBAgIBATANBgkqhkiG9w0BAQUFADBZMRowGAYDVQQKDBFDeWJl
+clZpbGxpYW5zLmNvbTEuMCwGA1UECwwlQ3liZXJWaWxsaWFucyBDZXJ0aWZpY2F0
+aW9uIEF1dGhvcml0eTELMAkGA1UEBhMCVVMwHhcNMDYwNjE3MjA1NTI3WhcNMDgw
+NjA2MjA1NTI3WjBZMRowGAYDVQQKDBFDeWJlclZpbGxpYW5zLmNvbTEuMCwGA1UE
+CwwlQ3liZXJWaWxsaWFucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UE
+BhMCVVMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANkMvKWD7CPM6eKI+DAt
+bYrrjGwe2XSzT3KYMU7uYfWJM1MqZTj1vF+lvGWrbtRMYcagV1j026LuQsWvyLXo
+RTlRmrrAMUzht7p/kWJZctAnnloyPTpxRvDcx0sJ6pOjFcvLMdWlRPudpwT7MY01
+uQ66nEw8780V1MzMATOb07/FAgMBAAGjbTBrMB0GA1UdDgQWBBRIE9V3w3kXvFpq
+VWGzAZlmt6osnTASBgNVHRMBAf8ECDAGAQH/AgEAMAsGA1UdDwQEAwIBBjApBgNV
+HSUEIjAgBggrBgEFBQcDAQYIKwYBBQUHAwkGCmCGSAGG+EUBCAEwDQYJKoZIhvcN
+AQEFBQADgYEAcGSb4OKkNaTjE6GeLDnpuWnkh/JZRBb9QEnmG5g0lNqdOMJNxuwy
+xsxDQPHyY/R3DnbxpS9D43rRx2teTp5khDyr+zpRNs4eHM2zs5MYDoje72Cfya8L
+G/s22d0nGpWnRS7Up2RdXGLhUHob7kr/A891C7N6q9kC2sED3eog4as=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><saml:Subject xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent" NameQualifier="http://qa.cybervillains.com/" SPNameQualifier="https://qa2.cybervillains.com/" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">0964f19a36f8166a1fe03e17dbe4ae0c9899a4f0</saml:NameID><saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:SubjectConfirmationData InResponseTo="i19e44a971f03935091fe896e5b4d1ba00d26d9cd" NotOnOrAfter="2007-05-13T21:16:51.000Z" Recipient="https://qa2.cybervillains.com/SPSSO_SAML20" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"/></saml:SubjectConfirmation></saml:Subject><saml:Conditions xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:AudienceRestriction xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:Audience>https://qa2.cybervillains.com/</saml:Audience></saml:AudienceRestriction></saml:Conditions><saml:AuthnStatement AuthnInstant="2007-05-13T21:06:51.000Z" SessionIndex="if12395b0f389741440ad845a2fc2d6e1698a0a51" SessionNotOnOrAfter="2007-05-13T21:26:51.000Z" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:AuthnContext xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml:AuthnContextClassRef><saml:AuthnContextDeclRef>http://qa.cybervillains.com/SAML20PasswordProtectedTransportStatement.xml</saml:AuthnContextDeclRef></saml:AuthnContext></saml:AuthnStatement><saml:AttributeStatement xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:Attribute xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="urn:liberty:disco:2003-08:DiscoveryResourceOffering" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:AttributeValue xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><dsc:ResourceOffering xmlns:dsc="urn:liberty:disco:2003-08"><dsc:ResourceID>http://qa.cybervillains.com/federated/saml2%7C0964f19a36f8166a1fe03e17dbe4ae0c9899a4f0%7Chttp%253A%252F%252Fqa.cybervillains.com%7Chttps%253A%252F%252Fqa2.cybervillains.com%7Curn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Apersistent%40https%3A%2F%2Fqa2.cybervillains.com%2F</dsc:ResourceID><dsc:ServiceInstance><dsc:ServiceType>urn:liberty:disco:2003-08</dsc:ServiceType><dsc:ProviderID>http://qa.cybervillains.com/</dsc:ProviderID><dsc:Description><dsc:SecurityMechID>urn:liberty:security:2005-02:null:X509</dsc:SecurityMechID><dsc:Endpoint>http://qa.cybervillains.com/IDPDS_IDWSF11</dsc:Endpoint><dsc:SoapAction>urn:liberty:disco:2003-08</dsc:SoapAction></dsc:Description><dsc:Description><dsc:SecurityMechID>urn:liberty:security:2003-08:null:X509</dsc:SecurityMechID><dsc:Endpoint>http://qa.cybervillains.com/IDPDS_IDWSF10</dsc:Endpoint><dsc:SoapAction>urn:liberty:disco:2003-08</dsc:SoapAction></dsc:Description></dsc:ServiceInstance></dsc:ResourceOffering></saml:AttributeValue></saml:Attribute></saml:AttributeStatement></saml:Assertion></samlp:Response>

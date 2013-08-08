@@ -1,0 +1,18 @@
+import com.isecpartners.samlpummel.SamlPummel;
+import org.owasp.webscarab.model.Request;
+import org.owasp.webscarab.model.Response;
+import org.owasp.webscarab.httpclient.HTTPClient;
+import java.io.IOException;
+
+public Response fetchResponse(HTTPClient nextPlugin, Request request) throws IOException {
+   
+   System.out.println(request.getMethod());
+   
+   if(request.getMethod().equals("POST")) {
+     request.setContent(SamlPummel.attackSAMLResponse(request.getContent()));
+   }
+   
+   response = nextPlugin.fetchResponse(request);
+   
+   return response;
+}
